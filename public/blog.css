@@ -1,4 +1,4 @@
-@import 'common.css';
+@import "common.css";
 
 /* メインコンテンツ */
 .main-content {
@@ -109,40 +109,40 @@ h1 a {
 }
 
 /* コメント入力欄 */
-#comment-list input[name=comment] {
+#comment-list input[name="comment"] {
   padding: 4px;
   width: 100%;
   margin-bottom: 10px;
 }
 
 /* コメント送信ボタン行 */
-form[name=comment] .submit-button {
+form[name="comment"] .submit-button {
   display: flex;
   align-items: center;
 }
-form[name=comment] .submit-button > *:not(:last-child) {
+form[name="comment"] .submit-button > *:not(:last-child) {
   margin-right: 20px;
 }
 
 /* コメント送信ボタン */
-form[name=comment] input[type=submit] {
+form[name="comment"] input[type="submit"] {
   margin-left: auto;
 }
 
 /* CAPTCHA画像 */
-form[name=comment] .captcha-image {
+form[name="comment"] .captcha-image {
   width: 150px;
   height: 50px;
 }
 
 /* CAPTCHA説明 */
-form[name=comment] .captcha-message {
+form[name="comment"] .captcha-message {
   line-height: 1.1;
   font-size: 1.3rem;
 }
 
 /* CAPTCHA入力欄 */
-form[name=comment] input[name=captcha] {
+form[name="comment"] input[name="captcha"] {
   padding: 4px 8px;
   width: 8ch;
 }

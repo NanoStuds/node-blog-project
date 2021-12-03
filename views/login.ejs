@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>管理者ログインページ</title>
-    <link rel="stylesheet" href="/admin.css">
+    <link rel="stylesheet" href="/admin.css" />
   </head>
 
   <body>
@@ -13,12 +13,11 @@
       <form name="login" action="/auth" method="post">
         <div>
           <label>パスワード</label>
-          <input type="password" name="password">
-          <input type="submit" value="送信">
+          <input type="password" name="password" />
+          <input type="submit" value="送信" />
           <p class="error"><%= message %></p>
         </div>
       </form>
     </section>
-
   </body>
 </html>
