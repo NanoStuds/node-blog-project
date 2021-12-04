@@ -58,6 +58,7 @@ app.use(flash());
 
 // ルーティング設定
 app.get("/blog/", (request, response) => {
+  console.log(request.query);
   // ブログ記事ファイル一覧取得
   const files = func.getEntryFiles();
   // メインコンテンツに表示するブログ記事
